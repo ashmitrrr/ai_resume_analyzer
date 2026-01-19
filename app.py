@@ -126,7 +126,7 @@ st.markdown("""
              AI Resume Analyzer
         </h1>
         <p style="color: #94a3b8 !important; font-size: 1.2rem; max-width: 600px; margin: 0 auto;">
-            Unlock the power of <span style="color: #818cf8;">Neural Networks</span> to optimize your CV.
+            Check your resume's <span style="color: #818cf8;">compatibility</span> with any job description instantly.
         </p>
     </div>
 """, unsafe_allow_html=True)
