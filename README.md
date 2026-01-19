@@ -1,5 +1,5 @@
 ---
-title: AI Resume Architect
+title: AI Resume Analyzer
 emoji: 🤖
 colorFrom: gray
 colorTo: blue
