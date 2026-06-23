@@ -169,7 +169,7 @@ if analyze_btn:
                             <h3 style="color: #94a3b8 !important; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 1.5px;">Semantic Match Score</h3>
                             <div class="score-value">{match_score}%</div>
                             <p style="color: #94a3b8 !important; margin-top: 10px;">
-                                {"✅ Highly Compatible" if match_score >= 70 else "⚠️ Optimization Required"}
+                                {"Highly Compatible" if match_score >= 70 else "⚠️ Optimization Required"}
                             </p>
                         </div>
                     """, unsafe_allow_html=True)
@@ -218,4 +218,4 @@ if analyze_btn:
             except Exception as e:
                 st.error(f"An unexpected error occurred: {e}")
     else:
-        st.warning("⚠️ Please upload a resume and paste a job description.")
+        st.warning("Please upload a resume and paste a job description.")

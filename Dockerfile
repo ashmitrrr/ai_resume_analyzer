@@ -11,7 +11,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir --upgrade pip
 RUN pip install --no-cache-dir -r requirements.txt
 
-# 5. Download the spaCy brain
+# 5. Download spaCy 
 RUN python -m spacy download en_core_web_sm
 
 # 6. Copy the rest of the code
